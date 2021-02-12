@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    background-color: #102951;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lista-foguetes{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1500px;
+    width: 500px;
+    height: 60px;
+    font-size: 22;
+    color: #fff;
+    cursor: pointer;
+}
+
+.img-front{
+    width: 500px;
+    height: 150px;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    border: 1px solid #C0C0C0;
+    padding: 5px;
+    margin: 0 25px;
+}
+
+.centralizar{
+    width: 100%;
+    max-width: 58vw;
+    margin: auto;
+    border-bottom: 3px solid #046EAA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-search{
+    width: 35px;
+    height: 33px;
+    background-color: transparent;
+    border: none;
+}
+
+#search-png{
+    width: 35px;
+    height: 35px;
+}
+
+.input-search{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    width: 574px;
+    height: 35px;
+    background-color: transparent;
+}
+
+.minha-conta{
+    text-transform: uppercase;
+}
+.atributos{
+    height: 80px;
+}
+.lista-atributos{
+    width: 58vw;
+    line-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    list-style: none;
+    margin: auto;
+    cursor: pointer;
+}
